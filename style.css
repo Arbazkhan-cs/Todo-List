@@ -112,16 +112,23 @@
         margin-top: 1rem;
     }
     #add-btn {
-        height: 1rem;
+        height: 2.4rem;
     }
-    .row{
-        height: 2rem;
-    }
+    
     .todo-li{
         font-size: 1.2rem;
+        padding-left: 2rem;
     }
     .todo-li::before{
         height:1.2rem;
         width:1.2rem;
+        left: 0.4rem;
+        top:0.65rem;
+    }
+    .todo-ul{
+        margin: 1rem 0;
+    }
+    .todo-li span{
+        right:0;
     }
 }
